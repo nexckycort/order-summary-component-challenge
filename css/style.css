@@ -54,13 +54,14 @@ body {
   padding: 0.5rem 1rem;
 }
 
-.card-plan-price h4 {
+.card-text-plan {
   margin-top: 1rem;
   margin-bottom: 0%;
+  font-size: 16px;
   font-weight: 900;
 }
 
-.card-plan-price p {
+.card-text-price {
   margin-top: 0%;
   margin-bottom: 0%;
   font-weight: 500;
@@ -73,6 +74,10 @@ body {
 
 .card-text-bold {
   font-weight: 900;
+}
+
+.card-text-title {
+  font-size: 32px;
 }
 
 .card-text-light {
