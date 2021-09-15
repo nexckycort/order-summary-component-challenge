@@ -43,8 +43,9 @@ body {
 
 .card-plan {
   display: flow-root;
-  margin: 2rem 1rem;
-  background-color: red;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 100%;
   background-color: hsla(225, 100%, 94%, 0.322);
   border-radius: 0.8rem;
 }
