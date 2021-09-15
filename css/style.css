@@ -1,0 +1,112 @@
+body {
+  background-color: var(--pale-blue);
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat, repeat;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  text-align: center;
+  background-color: var(--very-pale-blue);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-body {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-plan {
+  display: flow-root;
+  margin: 2rem 1rem;
+}
+
+.card-plan-icon {
+  padding: 0.5rem 1rem;
+}
+
+.card-plan-price h4 {
+  margin-top: 1rem;
+  margin-bottom: 0%;
+  font-weight: 900;
+}
+
+.card-plan-price p {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-weight: 500;
+}
+
+.card-plan a {
+  margin-top: 1.5rem;
+}
+
+.card-text-bold {
+  font-weight: 900;
+}
+
+.card-text-light {
+  color: var(--desaturated-blue);
+}
+
+.card-footer {
+  padding-bottom: 2rem;
+}
+
+.btn {
+  padding: 1rem 5.4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+}
+
+.btn-primary {
+  margin-bottom: 2rem;
+  background-color: var(--bright-blue);
+  color: var(--very-pale-blue);
+  box-shadow: 0px 3px 15px hsla(245, 75%, 52%, 0.5);
+}
+
+.btn-secondary {
+  background-color: var(--very-pale-blue);
+  color: var(--desaturated-blue);
+}
+
+.card-plan a:hover {
+  color: var(--dark-blue);
+  color: var(--desaturated-blue);
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: hsla(245, 75%, 52%, 0.2);
+}
+
+.btn-secondary:hover {
+  color: black;
+}
