@@ -16,3 +16,5 @@
 .prettierignore
 
 .vscode
+# Local Netlify folder
+.netlify
